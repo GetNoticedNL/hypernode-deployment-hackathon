@@ -5,9 +5,10 @@
     "type": "magento2-component",
     "require": {
         "php": "^7.0",
-        "magento/module-deploy": "100.2.*",
-        "magento/framework": "101.0.*",
-        "symfony/yaml": "^3.3"
+        "magento/module-deploy": "^100",
+        "magento/framework": "^101",
+        "symfony/dependency-injection": "<3.1",
+        "symfony/yaml": "^2.8"
     },
     "require-dev": {
         "mediact/testing-suite": "^1.11",
